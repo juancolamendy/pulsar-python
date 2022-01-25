@@ -17,5 +17,5 @@ python producer.py
 
 # Get topic stats
 ```sh
-curl http://localhost:8080/admin/v2/persistent/public/default/topic-01/stats | python -m json.tool
+curl http://localhost:8080/admin/v2/persistent/public/default/mytopic/stats | python -m json.tool
 ```
